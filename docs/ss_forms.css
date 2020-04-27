@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*
+   Author: Mikaela Widener
+   Date: 04/25/2020
+   
+   Filename: ss_forms.css
+
+*/
+/* Type Styles */
+h1, h2 {
+	font-family: Candara, Calibri, sans-serif;
+	font-weight: bold;
+	}
+	
+h1 {
+	font-size: 1.8em;
+	}
+	
+h2 {
+	font-size: 1.7em;
+	}
+	
+	p { 
+	font-size: 1.2em;
+	font-family: Candara, Calibri, sans-serif;
+	}
+
+
+/* Community Form Styles */
+
+form#emaillist, form#review {
+	background-color: rgb(129, 189, 230);
+	color: black;
+	font-family: Candara, Calibri, sans-serif;
+	font-size: 0.8em;
+	width: 80%;
+}
+
+form#emaillist input {
+	width: 60;
+}
+
+textarea {
+	width: 100%;
+}

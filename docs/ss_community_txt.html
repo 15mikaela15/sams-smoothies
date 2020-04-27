@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+    Sam's Smoothie Shack Menu
+    Author: Mikaela Widener
+    Date: 04/18/2020
+
+    Filename: ss_community_txt.html
+   -->
+
+   <meta charset="utf-8" />
+   <title>Smoothie Community</title>
+   	<link href="ss_baseline.css" rel="stylesheet" />
+	<link href="ss_ultimatestyles.css" rel="stylesheet" />
+	<link href="ss_forms.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+  <a href="ss_homepage_txt.html"><img src="sss_header3.jpg" alt=""></a>
+  		<nav class="horizontalNavigation">
+         <ul>
+            <li><a href="ss_about_txt.html">ABOUT</a></li>
+            <li><a href="ss_events_txt.html">EVENTS</a></li>
+            <li><a href="ss_menu_txt.html">MENU</a></li>
+            <li><a href="ss_community_txt.html">COMMUNITY</a></li>
+            <li><a href="ss_contact_txt.html">CONTACT</a></li>
+         </ul>
+      </nav>
+  </header>
+  
+  <article>
+  <h1>We Value Our Guests</h1>
+  <p>At Sam's Smoothie Shack, we always recognize our regular visitors! We love your support and look forward to seeing all faces, old and new. Therefore, we recognize our regular visitors based off of who has joined our email list and recommended us to friends. 
+</p>
+<p>Interested in being the recognized customer of next month? Share your interest in the business by posting a picture of you and your smoothie on Instagram or Facebook with the hashtag "samssmoothies". If you are on our email list and have posted your smoothie picture, you could be chosen in the drawing to win a $50 giftcard and have your picture posted on the website! Good luck. :)</p>
+
+	  <form id="emaillist" action="http://www.example.com/smoothieshack/emaillist" method="post">
+	  <fieldset id="custInfo">
+		<legend>Customer Information</legend>
+		<div class="formRow">
+			<label for="name">Name*</label>
+			<input name="custName" id="name" type="text" placeholder="first & last" />
+		</div>
+		<div class="formRow">		
+			<label for="street">Street address</label>
+			<input name="custStreet" id="street" type="text" />
+		</div>
+		<div class="formRow">	
+			<label for="city">City</label>
+			<input name="custCity" id="city" type="text" value="" />
+		</div>
+		<div class="formRow">	
+			<label for="state">State</label>
+			<input name="custState" id="state" type="text" value="" />
+		</div>
+		<div class="formRow">	
+			<label for="zip">Postal code</label>
+			<input name="custZip" id="zip" type="text" />
+		</div>
+		<div class="formRow">	
+			<label for="phone">Phone number</label>
+			<input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" />
+		</div>
+		<div class="formRow">	
+			<label for="email">E-mail*</label>
+			<input name="custEmail" id="email" type="email" />
+		</div>
+
+		<input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+		<label for="mailCB">Yes, I would love to receive monthly coupons in my e-mail!</label>
+		<br />
+		<br />
+			<input value="Submit" type="submit" />
+	  </fieldset>
+	  </form>
+
+  </article>
+  
+  <aside>
+  <h2>April's Customer of the Month</h2>
+  <figure>
+  <img src="sss_jenifer3.jpg" alt="Jenifer" />
+  <figcaption><h3>Jenifer Ashton</h3>
+  <p>"I always love stopping by to enjoy a nice cool Strawberry Splash after riding the waves. Thank you Sam and family for your lovely service! <3"</p>
+  </figcaption>
+  
+  </aside>
+  
+  <footer>
+      Sam's Smoothie Shack &#8226; 476 Mill Drive, Myrtle Beach SC 28201 &#8226; 123-456-7899
+   </footer>
+</body>
+
+</html>

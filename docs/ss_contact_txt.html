@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+    Sam's Smoothie Shack Menu
+    Author: Mikaela Widener
+    Date: 04/18/2020
+
+    Filename: ss_contact_txt.html
+   -->
+
+   <meta charset="utf-8" />
+   <title>Smoothie Contact Info</title>
+   	<link href="ss_baseline.css" rel="stylesheet" />
+	<link href="ss_ultimatestyles.css" rel="stylesheet" />
+	<link href="ss_forms.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+  <a href="ss_homepage_txt.html"><img src="sss_header3.jpg" alt=""></a>
+  		<nav class="horizontalNavigation">
+         <ul>
+            <li><a href="ss_about_txt.html">ABOUT</a></li>
+            <li><a href="ss_events_txt.html">EVENTS</a></li>
+            <li><a href="ss_menu_txt.html">MENU</a></li>
+            <li><a href="ss_community_txt.html">COMMUNITY</a></li>
+            <li><a href="ss_contact_txt.html">CONTACT</a></li>
+         </ul>
+      </nav>
+  </header>
+  
+  <section id="leftColumn"> 
+  <img src="sss_lifegaurd2.jpg" alt="Contact Picture" />
+  </section>
+  
+  <section id="rightColumn">
+  <h1>Contact Information</h1>
+  <p>If anyone would like to contact us with in regards to performing live, applying for a job, or any other questions or concerns feel free to call or email us at:</p>
+  	<p> Call: <a href="tel:+11234567899">(123) 456-7899</a></p>
+	<p>Email: smithsmoothies@example.com</p>
+	</section>
+	<aside>
+	<h2>Leave A Review</h2>
+	<p>You can also leave a review by filling out the form below. We value our customers, and would love to hear of your experience.</p>
+	
+	<form id="review" action="http://www.example.com/smoothieshack/review" method="post">
+	<fieldset id="visitInfo">
+		<legend>Visit Information</legend>
+<div class="formRow">
+	<label for="name">Name</label>
+	<input name="custName" id="name" type="text" placeholder="first & last" />
+	</div>
+	
+<div class="formRow">
+	<label for="date">Date of Visit</label>
+	<input name="custDate" id="date" type="date" />
+	</div>
+	
+<div class="formRow">
+		<label for="time">Time of Visit
+		</label>
+		<select name="infoSrc" id="info" size="3" 1>
+			<option value="morning">Morning</option>
+			<option value="mid-day">Mid-day</option>
+			<option value="evening">Evening</option>
+		</select>
+		</div>
+	
+	<div class="formRow">
+		<label for="commBox">Tell us more about your experience!</label>
+		<textarea name="custExp" id="commBox"></textarea>
+	</div>
+		<br />
+	<input value="Submit" type="submit" />
+	</form>
+	
+	</aside>
+  <footer>
+      Sam's Smoothie Shack &#8226; 476 Mill Drive, Myrtle Beach SC 28201 &#8226; 123-456-7899
+   </footer>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*
+
+   Author: Mikaela Widener
+   Date: 04/25/2020
+   
+   Filename: ss_ultimatestyles.css
+
+*/
+
+/* Layout */
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+}
+
+body > header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+body > nav {
+	width: 20%;
+	float: left;
+	margin: 0;
+}
+
+
+/* HTML and Body Styles*/
+html {
+	background-color: rgb(235,235,224);
+	}
+body {
+	background: linear-gradient(180deg, rgb(225,153,153), rgb(153,179,255) 100%);
+	}
+
+
+/*Navigation Styles*/
+nav.horizontalNavigation ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(51,51,51);
+}
+nav.horizontalNavigation li {
+	float: left;
+}
+
+nav.horizontalNavigation li a {
+  display: block;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 20px 57px;
+  text-decoration: none;
+}
+
+nav.horizontalNavigation li a:hover, nav.horizontalNavigation li a:active {
+	background-color: rgb(115,115,115);
+}
+
+
+/*Footer Styles*/
+footer {
+	background-color: rgb(51,51,51);
+	color: #d9d9d9;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 7px;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+

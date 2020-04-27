@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*
+   Author: Mikaela Widener
+   Date: 04/25/2020
+   
+   Filename: ss_menu_styles.css
+
+*/
+
+/* Typographic Styles */
+h1, h2, h3 {
+	font-family: Book Antiqua, Palatino, serif;
+	font-size: 2em;
+	display: block;
+	border: 4px double black;
+}
+
+dl {
+	font-family: Candara, Calibri, sans-serif;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+dd {
+	font-size: 1em;
+}
+
+/* Header Styles */
+
+
+/* Main Menu */
+article {
+	text-align: center;
+}
+
+
+/* Kids Menu */
+section#left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+
+/* Tiki Bar Menu */
+
+section#right {
+	float: left;
+	width: 50%;
+	text-align: center;
+}

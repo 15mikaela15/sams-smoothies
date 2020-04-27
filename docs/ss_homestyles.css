@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*
+   Author: Mikaela Widener
+   Date: 04/25/2020
+   
+   Filename: ss_homestyles.css
+
+*/
+
+/* Comments Styles */
+section#comments blockquote {
+	background-color: rgb(51,51,51);
+	color: white;
+	width: 100%;
+	padding-top: 0;
+}
+
+section#comments blockquote {
+	font-family: Candara, Calibri, sans-serif;
+	font-size: 1.2em;
+	quotes: \201C \201D;
+}
+section#comments blockquote.column {
+	width: 33.33%;
+	float: left;
+}
+
+section#comments blockquote.column {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section#comments blockquote.column {
+
+}
+
+/* Berry Blue Styles */
+
+section#special {
+
+}

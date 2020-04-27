@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*
+   Author: Mikaela Widener
+   Date: 04/25/2020
+   
+   Filename: ss_event_styles.css
+
+*/
+
+h1, h2, section, img {
+	display: block;
+}
+
+/* Typographic Styles */
+
+h1, h2 {
+	font-family: Candara, Calibri, sans-serif;
+	font-weight: bold;
+	}
+	
+h1 {
+	font-size: 1.8em;
+	}
+	
+h2 {
+	font-size: 1.7em;
+	}
+
+	p { 
+	font-size: 1.2em;
+	font-family: Candara, Calibri, sans-serif;
+	}
+	
+	h1, h2, p, table {
+		text-align: center;
+	}
+	

@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+   Author: Mikaela Widener
+   Date: 04/25/2020
+   
+   Filename: ss_about_styles.css
+
+*/
+
+h1, h2, section, img {
+	display: block;
+}
+
+/* Typographic Styles */
+
+h1, h2 {
+	font-family: Candara, Calibri, sans-serif;
+	font-weight: bold;
+	}
+	
+h1 {
+	font-size: 1.8em;
+	}
+	
+h2 {
+	font-size: 1.7em;
+	}
+
+	p { 
+	font-size: 1.2em;
+	font-family: Candara, Calibri, sans-serif;
+	}
+	
+	
+/* About Us Styles */
+h1 {
+	padding: 1em;
+}
+
+section#leftColumn {
+	float: left;
+	width: 35%;
+}
+
+section#leftColumn p {
+	padding-left: 1em;
+	padding-right: 1em;
+	text-wrap: none;
+}
+
+section#rightColumn img {
+	float: left;
+	width: 65%;
+	display: inline-block;
+	padding-top: 4px;
+}
+
+
+/* Ingredient Section Styles */
+section.ingredients {
+	text-align: center;
+}
+
+section.ingredients img {
+	padding-left: 230px;
+	padding-bottom: 50px;
+}
+	
